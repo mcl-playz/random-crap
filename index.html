@@ -1,22 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watch Jasper</title>
+    <title>Random Crap</title>
 </head>
 <body>
     <style>
         * {
-            padding: 0;
-            margin: 0;
-        }
-
-        iframe {
-            width: 100vw;
-            height: 100vh;
+            font-family: sans-serif;
+            background-color: #222;
+            color: white;
         }
     </style>
-    <iframe src="https://vdo.ninja/?view=jasper"></iframe>
+    <script>
+        function openPage(page){
+            document.location.href = page;
+        }
+    </script>
+
+    <h1>Random Crap</h1>
+    <hr>
+    <button onClick="openPage('https://raw.githubusercontent.com/mcl-playz/random-crap/main/cheesebible.txt')">Cheese Bible</button>
+    <button onClick="openPage('watch.html')">Watch Jasper</button>
+    <hr>
+    <p>A bunch of random crap</p>
 </body>
 </html>
